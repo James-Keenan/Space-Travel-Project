@@ -1,0 +1,63 @@
+.spacecraft-card {
+  border: 5px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.spacecraft-image-container {
+  flex-shrink: 0;
+}
+
+.spacecraft-image {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.spacecraft-image:hover {
+  transform: scale(1.05);
+}
+
+.spacecraft-placeholder {
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.spacecraft-placeholder-hidden {
+  display: none;
+}
+
+.spacecraft-info {
+  flex: 1;
+}
+
+.destroy-button {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(251, 249, 249);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.destroy-button:hover {
+  background-color: #333333;
+  border-color: var(--primary-color);
+}

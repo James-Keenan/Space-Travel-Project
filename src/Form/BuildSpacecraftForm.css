@@ -1,0 +1,54 @@
+.build-spacecraft-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.build-spacecraft-form form {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+}
+
+.build-spacecraft-form label {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.build-spacecraft-form input,
+.build-spacecraft-form select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.build-spacecraft-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.build-spacecraft-form button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.build-spacecraft-form .back-button:hover {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color);
+}

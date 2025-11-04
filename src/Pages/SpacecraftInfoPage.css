@@ -1,0 +1,44 @@
+.spacecraft-info-page h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.spacecraft-info-page h2 {
+  color: var(--primary-color);
+  margin-top: 30px;
+}
+
+.spacecraft-info-page img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+
+}
+
+.spacecraft-info-page p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.spacecraft-info-page strong {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.spacecraft-description {
+  flex: 1;
+  text-align: left;
+}
+
+.spacecraft-description h3 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.spacecraft-name{
+    margin-top: 40px;
+    font-size: 40px;
+}
