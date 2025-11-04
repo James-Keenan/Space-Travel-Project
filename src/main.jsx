@@ -35,7 +35,9 @@ const router = createBrowserRouter([
     path: "*",
     element: <NotFoundPage />,
   },
-]);
+], {
+  basename: "/Space-Travel-Project"
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
